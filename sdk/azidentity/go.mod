@@ -1,4 +1,4 @@
-module github.com/Azure/azure-sdk-for-go/sdk/azidentity
+module github.com/Brightscout/azure-sdk-for-go/sdk/azidentity
 
 go 1.18
 

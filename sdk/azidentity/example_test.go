@@ -9,7 +9,7 @@ package azidentity_test
 import (
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/azidentity"
 )
 
 func ExampleNewOnBehalfOfCredentialFromCertificate() {
