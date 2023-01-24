@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/uuid"
 	"github.com/dnaeon/go-vcr/cassette"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

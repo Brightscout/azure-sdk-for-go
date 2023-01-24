@@ -9,7 +9,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/perf"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/perf"
 )
 
 type sleepTestOptions struct {

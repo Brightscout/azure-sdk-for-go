@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/mock"
 	"github.com/dnaeon/go-vcr/cassette"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
