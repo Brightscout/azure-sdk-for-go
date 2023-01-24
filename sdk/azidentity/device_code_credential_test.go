@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/recording"
 	"github.com/AzureAD/microsoft-authentication-library-for-go/apps/public"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/recording"
 )
 
 func TestDeviceCodeCredential_InvalidTenantID(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo"
 	msal "github.com/AzureAD/microsoft-authentication-library-for-go/apps/errors"
+	errinfo "github.com/Brightscout/azure-sdk-for-go/sdk/internal/errorinfo"
 )
 
 // getResponseFromError retrieves the response carried by
@@ -99,7 +99,7 @@ func (*AuthenticationFailedError) NonRetriable() {
 	// marker method
 }
 
-var _ errorinfo.NonRetriable = (*AuthenticationFailedError)(nil)
+var _ errinfo.NonRetriable = (*AuthenticationFailedError)(nil)
 
 // credentialUnavailableError indicates a credential can't attempt authentication because it lacks required
 // data or state
@@ -128,4 +128,4 @@ func (e *credentialUnavailableError) Error() string {
 // NonRetriable is a marker method indicating this error should not be retried. It has no implementation.
 func (e *credentialUnavailableError) NonRetriable() {}
 
-var _ errorinfo.NonRetriable = (*credentialUnavailableError)(nil)
+var _ errinfo.NonRetriable = (*credentialUnavailableError)(nil)

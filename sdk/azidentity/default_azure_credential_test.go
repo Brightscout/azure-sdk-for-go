@@ -19,8 +19,8 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/log"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/mock"
 )
 
 func TestDefaultAzureCredential_GetTokenSuccess(t *testing.T) {

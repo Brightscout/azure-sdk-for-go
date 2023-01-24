@@ -17,7 +17,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/recording"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/recording"
 )
 
 // configuration for live tests

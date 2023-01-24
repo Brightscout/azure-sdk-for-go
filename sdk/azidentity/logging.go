@@ -12,7 +12,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
+	"github.com/Brightscout/azure-sdk-for-go/sdk/internal/log"
 )
 
 // EventAuthentication entries contain information about authentication.
